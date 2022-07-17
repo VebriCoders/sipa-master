@@ -15,8 +15,8 @@ Gallery SIPA
   align="center"
   alt="GIF"
   src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-1.png"
-  width="500"
-  height="208"
+  width="800"
+  height="600"
 />
 
 <img
