@@ -23,24 +23,24 @@ Gallery SIPA
   align="center"
   alt="GIF"
   src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-2.png"
-  width="357"
-  height="208"
+  width="800"
+  height="600"
 />
 
 <img
   align="center"
   alt="GIF"
   src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-3.png"
-  width="357"
-  height="208"
+  width="800"
+  height="600"
 />
 
 <img
   align="center"
   alt="GIF"
   src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-4.png"
-  width="357"
-  height="208"
+  width="800"
+  height="600"
 />
 
 <img
