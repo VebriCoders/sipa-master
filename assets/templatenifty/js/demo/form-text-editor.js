@@ -1,0 +1,1 @@
+$(document).on('nifty.ready',function(){$('#demo-summernote, #demo-summernote-full-width').summernote({height:'230px'});$('#demo-summernote-airmode').summernote({airMode:true});$('#demo-edit-text').on('click',function(){$('#demo-summernote-edit').summernote({focus:true});});$('#demo-save-text').on('click',function(){$('#demo-summernote-edit').summernote('destroy');});})

@@ -1,0 +1,2 @@
+$(document).on('nifty.ready',function(){$('#demo-state-btn').on('click',function(){var btn=$(this).button('loading')
+var doSomething=setTimeout(function(){clearTimeout(doSomething);btn.button('reset')},3000);});});
