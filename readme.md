@@ -89,3 +89,5 @@ Fitur
 #######################
 CORE VEBRI CI HMVC 2022
 #######################
+
+https://drive.google.com/drive/folders/11XBhQXrxHS17Xml9Y9JJ6MVFny8y97Ka?usp=sharing
