@@ -7,7 +7,7 @@ Proses pengerjaan masih 20% dari semua fitur yang akan saya masukkan, tapi jika 
 
 SIPA Akan Mempermudah Casis Dalam Pendaftaran Dari Awal Sampai Akhir.
 
-~Vebri Developer~
+*Vebri Developer*
 
 Gallery SIPA
 
