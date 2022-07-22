@@ -7,7 +7,65 @@ Proses pengerjaan masih 20% dari semua fitur yang akan saya masukkan, tapi jika 
 
 SIPA Akan Mempermudah Casis Dalam Pendaftaran Dari Awal Sampai Akhir.
 
-~Vebri Developer~
+*Vebri Developer*
+
+Gallery SIPA
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-1.png"
+  width="800"
+  height="500"
+/>
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-2.png"
+  width="800"
+  height="600"
+/>
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-3.png"
+  width="800"
+  height="600"
+/>
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-4.png"
+  width="800"
+  height="600"
+/>
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-5.png"
+  width="800"
+  height="600"
+/>
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-6.png"
+  width="800"
+  height="600"
+/>
+
+<img
+  align="center"
+  alt="GIF"
+  src="https://raw.githubusercontent.com/VebriCoders/VebriCoders/main/sipa-master-description/sipa-8.png"
+  width="800"
+  height="600"
+/>
 
 #######################
 CORE VEBRI CI HMVC 2022
@@ -31,3 +89,5 @@ Fitur
 #######################
 CORE VEBRI CI HMVC 2022
 #######################
+
+https://drive.google.com/drive/folders/11XBhQXrxHS17Xml9Y9JJ6MVFny8y97Ka?usp=sharing
