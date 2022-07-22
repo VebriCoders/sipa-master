@@ -98,21 +98,23 @@
                         <!--Master Data-->
                         <li class="list-header">Master Rekrutment</li>
 
-                        <!--Menu list item-->
-                        <?php if ($this->uri->segment('1') == 'data_rekrutment') { ?>
-                            <li class="active-link">
-                                <a href="<?php echo base_url('data_rekrutment') ?>">
-                                    <i class="fa fa-graduation-cap"></i>
-                                    <span class="menu-title">Data Rekrutment</span>
-                                </a>
-                            </li>
-                        <?php } else { ?>
-                            <li class="">
-                                <a href="<?php echo base_url('data_rekrutment') ?>">
-                                    <i class="fa fa-graduation-cap"></i>
-                                    <span class="menu-title">Data Rekrutment</span>
-                                </a>
-                            </li>
+                        <?php if ($this->session->userdata('role_id') == 1) { ?>
+                            <!--Menu list item-->
+                            <?php if ($this->uri->segment('1') == 'data_rekrutment') { ?>
+                                <li class="active-link">
+                                    <a href="<?php echo base_url('data_rekrutment') ?>">
+                                        <i class="fa fa-graduation-cap"></i>
+                                        <span class="menu-title">Data Rekrutment</span>
+                                    </a>
+                                </li>
+                            <?php } else { ?>
+                                <li class="">
+                                    <a href="<?php echo base_url('data_rekrutment') ?>">
+                                        <i class="fa fa-graduation-cap"></i>
+                                        <span class="menu-title">Data Rekrutment</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
                         <?php } ?>
 
                         <!--Menu list item-->
@@ -137,55 +139,58 @@
                         <!--Master Data-->
                         <li class="list-header">Master Data Aplikasi</li>
 
-                        <!--Menu list item-->
-                        <?php if ($this->uri->segment('1') == 'data_agama_suku') { ?>
-                            <li class="active-link">
-                                <a href="<?php echo base_url('data_agama_suku') ?>">
-                                    <i class="fa fa-street-view"></i>
-                                    <span class="menu-title">Data Agama & Suku</span>
-                                </a>
-                            </li>
-                        <?php } else { ?>
-                            <li class="">
-                                <a href="<?php echo base_url('data_agama_suku') ?>">
-                                    <i class="fa fa-street-view"></i>
-                                    <span class="menu-title">Data Agama & Suku</span>
-                                </a>
-                            </li>
-                        <?php } ?>
 
-                        <!--Menu list item-->
-                        <?php if ($this->uri->segment('1') == 'data_pendidikan') { ?>
-                            <li class="active-link">
-                                <a href="<?php echo base_url('data_pendidikan') ?>">
-                                    <i class="fa fa-building-o"></i>
-                                    <span class="menu-title">Data Pendidikan</span>
-                                </a>
-                            </li>
-                        <?php } else { ?>
-                            <li class="">
-                                <a href="<?php echo base_url('data_pendidikan') ?>">
-                                    <i class="fa fa-building-o"></i>
-                                    <span class="menu-title">Data Pendidikan</span>
-                                </a>
-                            </li>
-                        <?php } ?>
+                        <?php if ($this->session->userdata('role_id') == 1) { ?>
+                            <!--Menu list item-->
+                            <?php if ($this->uri->segment('1') == 'data_agama_suku') { ?>
+                                <li class="active-link">
+                                    <a href="<?php echo base_url('data_agama_suku') ?>">
+                                        <i class="fa fa-street-view"></i>
+                                        <span class="menu-title">Data Agama & Suku</span>
+                                    </a>
+                                </li>
+                            <?php } else { ?>
+                                <li class="">
+                                    <a href="<?php echo base_url('data_agama_suku') ?>">
+                                        <i class="fa fa-street-view"></i>
+                                        <span class="menu-title">Data Agama & Suku</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
 
-                        <!--Menu list item-->
-                        <?php if ($this->uri->segment('1') == 'data_wilayah') { ?>
-                            <li class="active-link">
-                                <a href="<?php echo base_url('data_wilayah') ?>">
-                                    <i class="fa fa-map-o"></i>
-                                    <span class="menu-title">Data Wilayah</span>
-                                </a>
-                            </li>
-                        <?php } else { ?>
-                            <li class="">
-                                <a href="<?php echo base_url('data_wilayah') ?>">
-                                    <i class="fa fa-map-o"></i>
-                                    <span class="menu-title">Data Wilayah</span>
-                                </a>
-                            </li>
+                            <!--Menu list item-->
+                            <?php if ($this->uri->segment('1') == 'data_pendidikan') { ?>
+                                <li class="active-link">
+                                    <a href="<?php echo base_url('data_pendidikan') ?>">
+                                        <i class="fa fa-building-o"></i>
+                                        <span class="menu-title">Data Pendidikan</span>
+                                    </a>
+                                </li>
+                            <?php } else { ?>
+                                <li class="">
+                                    <a href="<?php echo base_url('data_pendidikan') ?>">
+                                        <i class="fa fa-building-o"></i>
+                                        <span class="menu-title">Data Pendidikan</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
+
+                            <!--Menu list item-->
+                            <?php if ($this->uri->segment('1') == 'data_wilayah') { ?>
+                                <li class="active-link">
+                                    <a href="<?php echo base_url('data_wilayah') ?>">
+                                        <i class="fa fa-map-o"></i>
+                                        <span class="menu-title">Data Wilayah</span>
+                                    </a>
+                                </li>
+                            <?php } else { ?>
+                                <li class="">
+                                    <a href="<?php echo base_url('data_wilayah') ?>">
+                                        <i class="fa fa-map-o"></i>
+                                        <span class="menu-title">Data Wilayah</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
                         <?php } ?>
 
                         <!--Menu list item-->
@@ -207,41 +212,45 @@
 
                         <li class="list-divider"></li>
 
-                        <!--Category name-->
-                        <li class="list-header">Setting</li>
 
-                        <!--Menu list item-->
-                        <?php if ($this->uri->segment('1') == 'user_management') { ?>
-                            <li class="active-link">
-                                <a href="<?php echo base_url('user_management') ?>">
-                                    <i class="fa fa-vcard-o"></i>
-                                    <span class="menu-title">User Management</span>
-                                </a>
-                            </li>
-                        <?php } else { ?>
-                            <li class="">
-                                <a href="<?php echo base_url('user_management') ?>">
-                                    <i class="fa fa-vcard-o"></i>
-                                    <span class="menu-title">User Management</span>
-                                </a>
-                            </li>
+                        <?php if ($this->session->userdata('role_id') == 1) { ?>
+                            <!--Category name-->
+                            <li class="list-header">Setting</li>
+
+                            <!--Menu list item-->
+                            <?php if ($this->uri->segment('1') == 'user_management') { ?>
+                                <li class="active-link">
+                                    <a href="<?php echo base_url('user_management') ?>">
+                                        <i class="fa fa-vcard-o"></i>
+                                        <span class="menu-title">User Management</span>
+                                    </a>
+                                </li>
+                            <?php } else { ?>
+                                <li class="">
+                                    <a href="<?php echo base_url('user_management') ?>">
+                                        <i class="fa fa-vcard-o"></i>
+                                        <span class="menu-title">User Management</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
+
+                            <?php if ($this->uri->segment('1') == 'setting') { ?>
+                                <li class="active-link">
+                                    <a href="<?php echo base_url('setting') ?>">
+                                        <i class="ti-settings"></i>
+                                        <span class="menu-title">Setting Aplikasi</span>
+                                    </a>
+                                </li>
+                            <?php } else { ?>
+                                <li class="">
+                                    <a href="<?php echo base_url('setting') ?>">
+                                        <i class="ti-settings"></i>
+                                        <span class="menu-title">Setting Aplikasi</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
                         <?php } ?>
 
-                        <?php if ($this->uri->segment('1') == 'setting') { ?>
-                            <li class="active-link">
-                                <a href="<?php echo base_url('setting') ?>">
-                                    <i class="ti-settings"></i>
-                                    <span class="menu-title">Setting Aplikasi</span>
-                                </a>
-                            </li>
-                        <?php } else { ?>
-                            <li class="">
-                                <a href="<?php echo base_url('setting') ?>">
-                                    <i class="ti-settings"></i>
-                                    <span class="menu-title">Setting Aplikasi</span>
-                                </a>
-                            </li>
-                        <?php } ?>
                     </ul>
 
                 </div>

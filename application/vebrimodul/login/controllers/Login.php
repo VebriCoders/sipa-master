@@ -92,6 +92,9 @@ class Login extends MX_Controller
                     } else if ($user['role_id'] == 2) {
                         $this->session->set_flashdata('notifikasi', 'welcome();');
                         redirect('dashboard');
+                    } else if ($user['role_id'] == 3) {
+                        $this->session->set_flashdata('notifikasi', 'welcome();');
+                        redirect('data_calon');
                     }
                 } else {
                     //Jika Password Salah Akan Di Arahkan Ke Halaman Login

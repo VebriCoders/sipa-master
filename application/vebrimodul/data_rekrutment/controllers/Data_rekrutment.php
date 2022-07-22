@@ -15,6 +15,10 @@ class Data_rekrutment extends MX_Controller
         if ($this->session->userdata('is_login') == false) {
             redirect('login');
         }
+
+        if ($this->session->userdata('role_id') != 1) {
+            redirect('login');
+        }
     }
 
     public function index()

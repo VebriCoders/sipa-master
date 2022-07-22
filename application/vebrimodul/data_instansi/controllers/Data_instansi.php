@@ -19,7 +19,11 @@ class Data_instansi extends MX_Controller
             redirect('login');
         }
 
-        if ($this->session->userdata('role_id') != 1) {
+        if ($this->session->userdata('role_id') == 1 || $this->session->userdata('role_id') == 2) {
+            // redirect('login');
+        }
+
+        if ($this->session->userdata('role_id') == 3) {
             redirect('login');
         }
     }
