@@ -106,4 +106,9 @@ class Data_rekrutment extends MX_Controller
 
         redirect('data_rekrutment');
     }
+
+	public function submit()
+	{
+		$this->M_Data_rekrutment->submit();
+	}
 }
